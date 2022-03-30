@@ -1,0 +1,6 @@
+hello.admin:
+  title: 'Hello module settings'
+  description: 'Sample Hello Module for Drupal 9'
+  parent: system.admin_config_development
+  route_name: hello.content
+  weight: 100
