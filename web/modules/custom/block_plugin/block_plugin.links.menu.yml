@@ -1,0 +1,6 @@
+block_plugin.admin:
+  title: 'Block plugin module settings'
+  description: 'Sample Block Plugin Module for Drupal 9'
+  parent: system.admin_config_development
+  route_name: block_plugin.content
+  weight: 100

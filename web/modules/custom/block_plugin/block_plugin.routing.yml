@@ -1,0 +1,7 @@
+block_plugin.content:
+  path: '/block-plugin'
+  defaults:
+    _controller: '\Drupal\block_plugin\Controller\BlockPluginController::content'
+    _title: 'Block Plugin'
+  requirements:
+    _permission: 'access content'
